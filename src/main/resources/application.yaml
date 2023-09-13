@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://${database_host}:${database_port}/${database_name}?currentSchema=${database_sch}"
+
+    username: ${database_username}
+    password: ${database_pwd}
